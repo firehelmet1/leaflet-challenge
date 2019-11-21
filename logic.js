@@ -59,8 +59,8 @@ function createFeatures(features) {
         color: "white",
         fillColor: color,
         radius: (50000*feature.properties.mag)
-      }).bindPopup("<h1> Magnitude: " + feature.properties.mag + "</h1> <hr> <h3> Location: " +feature.properties.place+ 
-      "</h3> <hr> <p>" + new Date(feature.properties.time) + "</p>").addTo(myMap);
+      }).bindPopup("<h5> Magnitude: " + feature.properties.mag + "</h5> <hr> <h7> Location: " +feature.properties.place+ 
+      "</h7> <hr> <p>" + new Date(feature.properties.time) + "</p>").addTo(myMap);
   /// test section
 });
 
