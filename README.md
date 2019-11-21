@@ -8,6 +8,9 @@ Welcome to the United States Geological Survey, or USGS for short! The USGS is r
 
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
+This analysis used Leaflet.js to extract, process and render a geoJson from the USGS for the mapping visualization. 
+The visualization is executed through a CLI or GitBash in the root directory with command: "python -m http.server".
+
 ### November 19, 2019 - Worldwide Earthquake Spots - Size & Color by Richter Scale Magnitude
 
 ![Screenshot](Images/19NovScreenshot.PNG)
